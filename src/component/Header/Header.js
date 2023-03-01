@@ -1,5 +1,6 @@
 import "./Header.sass";
 import React, { useState, useEffect } from 'react';
+import logo from './logofellah.png'
 
 function Header() {
   const [isSolid, setIsSolid] = useState(false);
@@ -17,6 +18,7 @@ function Header() {
 
   return (
     <div className={isSolid ? 'header-solid' : 'header'}>
+      <img src={logo} alt="" />
       <h2>Boucherie Fellah</h2>
     </div>
   );

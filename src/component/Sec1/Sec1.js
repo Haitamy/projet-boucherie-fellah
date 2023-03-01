@@ -2,6 +2,7 @@ import React from "react";
 import "./Sec1.sass";
 
 export default function Sec1() {
+
   return (
     <div id="welcome">
       <div id="accueil">
@@ -18,7 +19,8 @@ export default function Sec1() {
           fuga odit saepe harum consequatur quibusdam quidem recusandae ipsum
           nam deleniti? Reprehenderit minima obcaecati fugiat. Odit aut
           explicabo eos, velit eius repudiandae reprehenderit nam, dolor
-          <br /><br />
+          <br />
+          <br />
           voluptatibus voluptatem ipsum perspiciatis? Repellendus ad quas quod
           asperiores dolorem cum ducimus rerum culpa quam optio? Quo totam alias
           vel. Perferendis voluptatibus optio incidunt distinctio, non eius
@@ -33,9 +35,6 @@ export default function Sec1() {
           delectus voluptate deleniti commodi adipisci reiciendis dolor, natus
           assumenda distinctio ipsam blanditiis laudantium! Aspernatur
         </p>
-        <div id="btn">
-          <button class="button">Voir Nos Produits</button>
-        </div>
       </div>
     </div>
   );
